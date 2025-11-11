@@ -10,7 +10,7 @@ private:
     string department;
     int experienceYears;
 public:
-    Instructor(string n, int i, string d, int e) : person(n, i);
+    Instructor(string n, int i, string d, int e) : Person(n, i);
     void display() override;
 };
 
