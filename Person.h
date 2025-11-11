@@ -5,12 +5,12 @@
 using namespace std;
 
 
-class person{
+class Person{
 private:
 string name;
 int id;
 public:
-person(string s, int i);
+Person(string s, int i);
 virtual void display();
 };
 
