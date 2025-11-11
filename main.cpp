@@ -28,7 +28,7 @@ void ::Person display() {
 // ==================== Student Class Implementation ====================
 
 
-:: Student(string n, int i, string m, int y):person(n,i){
+:: Student(string n, int i, string m, int y):Person(n,i){
 major=m;
 yearLevel = y;
 }
