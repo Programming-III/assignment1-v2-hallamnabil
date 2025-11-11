@@ -101,6 +101,7 @@ int main() {
    Student s("Omar nabil" , 2202,"informatics" , 2 );
    Instructor I("Dr. Lina Khaled", 1002, "computer science", 5);
    Course c("CS101" , "Introduction to Programming", 3, Student* st);
+	st-> addStudent(s);
     s.display();
    I.display();
    c.displayCourseInfo();
