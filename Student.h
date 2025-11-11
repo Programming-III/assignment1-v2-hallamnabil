@@ -10,6 +10,7 @@ class student : public person {
 		string major;
         int yearLevel;
 public: 
+   student(string n, int i, string m, int y):person(n,i); 
 	void display() override;
 };
 
