@@ -10,6 +10,7 @@ private:
 string name;
 int id;
 public:
+person(string s, int i);
 virtual void display();
 };
 
