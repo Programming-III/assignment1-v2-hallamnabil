@@ -5,7 +5,13 @@
 using namespace std;
 //#write Instructor class here
 
-
+class instructor : public person {
+private:
+    string department;
+    int experienceYears;
+public:
+    void display() override;
+};
 
 
 
